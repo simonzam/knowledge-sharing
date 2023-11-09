@@ -1,3 +1,3 @@
-# Knowledge Sharing 23/11/17
+# Knowledge Sharing
 
-## Containers
+##  23/11/17 - Containers
