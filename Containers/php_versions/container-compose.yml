@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  php_apache_7.2:
+    image: php:7.2-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - ./html:/var/www/html
+
+  php_apache_latest:
+    image: php:apache
+    ports:
+      - "8081:80"
+    volumes:
+      - ./html:/var/www/html
