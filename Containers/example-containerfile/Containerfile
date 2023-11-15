@@ -1,0 +1,5 @@
+FROM ubuntu
+
+RUN echo "Hello, World"
+
+ENTRYPOINT ["/bin/bash"];
